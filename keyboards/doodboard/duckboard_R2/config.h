@@ -40,7 +40,7 @@
 #define ENCODERS_PAD_B { F5 }
 #define ENCODER_RESOLUTION 2
 
-#define TAPPING_TOGGLE 5
+#define TAPPING_TOGGLE 3
 
 /* media key slowdown for windows */
 #define TAP_CODE_DELAY 20
