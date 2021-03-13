@@ -44,6 +44,7 @@
 
 #ifdef RGBLIGHT_ENABLE
 #define RGBLED_NUM 8    // Number of LEDs
+#define RGBLIGHT_ANIMATIONS
 #endif
 
 /* Set 0 if debouncing isn't needed */
@@ -51,3 +52,5 @@
 
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 1
+
+#define TAPPING_TOGGLE 3

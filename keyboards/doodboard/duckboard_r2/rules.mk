@@ -2,7 +2,8 @@
 MCU = atmega32u4
 
 # Bootloader selection
-BOOTLOADER = caterina
+#BOOTLOADER = caterina 		# For Pro Micro
+BOOTLOADER = atmel-dfu 		# For Elite-C
 
 # Build Options
 #   change yes to no to disable
