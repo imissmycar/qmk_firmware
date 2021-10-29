@@ -33,3 +33,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
   )
 };
+<<<<<<< HEAD
+=======
+
+bool encoder_update_user(uint8_t index, bool clockwise) {
+    if (index == 1) {
+        if (clockwise) {
+            tap_code(KC_PGDN);
+        } else {
+            tap_code(KC_PGUP);
+        }
+    } else if (index == 0) {
+        if (clockwise) {
+            tap_code(KC_VOLU);
+        } else {
+            tap_code(KC_VOLD);
+        }
+    }
+    return true;
+}
+>>>>>>> 636cf1c6c8 (Change Tapping Toggle to 3 for Quefrency Rev 2. Change left encoder to adjust volume.)
